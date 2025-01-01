@@ -1,22 +1,13 @@
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        l, r = 0, len(s) - 1
-        
-        while l < r:
-            lc = s[l]
-            rc = s[r]
-            
-            if not lc.isalnum():  # Check if the left character is alphanumeric
-                l += 1
-                continue
-            if not rc.isalnum():  # Check if the right character is alphanumeric
-                r -= 1
-                continue
-            
-            if lc.lower() != rc.lower():  # Compare lowercase versions of the characters
+        # Clean the string by filtering out non-alphanumeric characters and converting to lowercase
+        cleaned_string = ''.join(c.lower() for c in s if c.isalnum())
+
+        # Use two pointers to check for palindrome
+        l, h = 0, len(cleaned_string) - 1
+        while l < h:
+            if cleaned_string[l] != cleaned_string[h]:
                 return False
-            
             l += 1
-            r -= 1
-        
+            h -= 1
         return True
