@@ -1,8 +1,5 @@
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
         zero_i = 0
 
         for i, num in enumerate(nums):
