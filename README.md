@@ -4,12 +4,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0283-move-zeroes) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Two Pointers
@@ -29,4 +31,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+## Matrix
+|  |
+| ------- |
+| [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 <!---LeetCode Topics End-->
