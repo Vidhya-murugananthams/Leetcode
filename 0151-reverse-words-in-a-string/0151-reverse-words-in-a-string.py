@@ -3,5 +3,5 @@ class Solution:
         words = s.strip().split()
         temp=""
         for i in words[: :-1]:
-            temp+=" "+i
+            temp+=i+" "
         return temp.strip()
