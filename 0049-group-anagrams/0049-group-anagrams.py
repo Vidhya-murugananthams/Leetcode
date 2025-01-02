@@ -8,3 +8,4 @@ class Solution:
                 ans[key] = []
             ans[key].append(s)
         return list(ans.values())
+
