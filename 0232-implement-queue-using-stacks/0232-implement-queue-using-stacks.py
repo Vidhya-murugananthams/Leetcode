@@ -6,6 +6,7 @@ class MyQueue:
     def transfer(self):
         while len(self.stack1)!=0:
             self.stack2.append(self.stack1.pop())
+            
     def push(self, x: int) -> None:
         self.stack1.append(x)
     def pop(self) -> int:
