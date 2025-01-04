@@ -1,24 +1,32 @@
 class MyQueue:
+
     def __init__(self):
-        self.in_stack = []
-        self.out_stack = []
-    
+        self.stack1=[]
+        self.stack2=[]
     def transfer(self):
-        while self.in_stack:
-            self.out_stack.append(self.in_stack.pop())
-
+        while len(self.stack1)!=0:
+            self.stack2.append(self.stack1.pop())
     def push(self, x: int) -> None:
-        self.in_stack.append(x)
-
+        self.stack1.append(x)
     def pop(self) -> int:
-        if not self.out_stack:
+        if len(self.stack2)==0:
             self.transfer()
-        return self.out_stack.pop()
-
+        if len(self.stack2)==0:
+            return 0
+        return self.stack2.pop()
     def peek(self) -> int:
-        if not self.out_stack:
+        if len(self.stack2)==0:
             self.transfer()
-        return self.out_stack[-1]
-
+        if len(self.stack2)==0:
+            return 0
+        return self.stack2[-1]
     def empty(self) -> bool:
-        return not self.in_stack and not self.out_stack
+        if len(self.stack1)==0 and len(self.stack2)==0:
+            return True
+        return False
+# Your MyQueue object will be instantiated and called as such:
+# obj = MyQueue()
+# obj.push(x)
+# param_2 = obj.pop()
+# param_3 = obj.peek()
+# param_4 = obj.empty()
