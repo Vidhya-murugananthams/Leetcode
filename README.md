@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0258-add-digits) |
+| [0319-bulb-switcher](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0319-bulb-switcher) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Two Pointers
 |  |
@@ -143,4 +144,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
+## Brainteaser
+|  |
+| ------- |
+| [0319-bulb-switcher](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0319-bulb-switcher) |
 <!---LeetCode Topics End-->
