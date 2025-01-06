@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0001-two-sum) |
+| [0046-permutations](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
@@ -148,4 +149,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0319-bulb-switcher](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0319-bulb-switcher) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
