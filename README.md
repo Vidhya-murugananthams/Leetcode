@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [0283-move-zeroes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0283-move-zeroes) |
 | [0739-daily-temperatures](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0739-daily-temperatures) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Two Pointers
 |  |
@@ -41,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Matrix
 |  |
@@ -130,4 +133,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0226-invert-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0226-invert-binary-tree) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
