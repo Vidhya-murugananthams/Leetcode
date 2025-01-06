@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0151-reverse-words-in-a-string) |
@@ -152,5 +153,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0046-permutations) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
