@@ -11,8 +11,3 @@ class Solution:
             if prime[i]==1:
                 count+=1
         return count
-
-            
-
-
-        
