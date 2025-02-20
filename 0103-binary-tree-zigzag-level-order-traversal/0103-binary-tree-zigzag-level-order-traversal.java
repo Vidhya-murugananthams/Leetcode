@@ -15,27 +15,24 @@ class Solution {
         if (root == null) return new ArrayList<>();
         
         List<List<Integer>> res = new ArrayList<>();
-        Deque<TreeNode> q = new ArrayDeque<>();
+        Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
-        boolean reverse = true;
+        boolean reverse = false;
         
         while (!q.isEmpty()) {
-            Deque<TreeNode> newQ = new ArrayDeque<>();
-            List<Integer> level = new ArrayList<>();
+            int size = q.size();
+            List<Integer> level = new ArrayList<>(size);
             
-            for (TreeNode node : q) {
+            for (int i = 0; i < size; i++) {
+                TreeNode node = q.poll();
                 level.add(node.val);
-                if (reverse) {
-                    if (node.left != null) newQ.addFirst(node.left);
-                    if (node.right != null) newQ.addFirst(node.right);
-                } else {
-                    if (node.right != null) newQ.addFirst(node.right);
-                    if (node.left != null) newQ.addFirst(node.left);
-                }
+
+                if (node.left != null) q.add(node.left);
+                if (node.right != null) q.add(node.right);
             }
-            
+
+            if (reverse) Collections.reverse(level);
             res.add(level);
-            q = newQ;
             reverse = !reverse;
         }
         
