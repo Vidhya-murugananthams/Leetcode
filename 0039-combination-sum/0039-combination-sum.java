@@ -1,24 +1,25 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 class Solution {
-    public void backtrack(int[] candidates, int target, List<Integer> combination, List<List<Integer>> result, int start) {
-        if (target == 0) {
-            result.add(new ArrayList<>(combination));
-            return;
-        }
-        if (target < 0) return;
-
-        for (int i = start; i < candidates.length; i++) {
-            combination.add(candidates[i]);
-            backtrack(candidates, target - candidates[i], combination, result, i);
-            combination.remove(combination.size() - 1);
-        }
-    }
-
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList<>();
-        backtrack(candidates, target, new ArrayList<>(), result, 0);
+        Arrays.sort(candidates); // Sorting helps in pruning (optional for LeetCode)
+        backtrack(candidates, target, 0, new ArrayList<>(), result);
         return result;
+    }
+
+    private void backtrack(int[] candidates, int target, int index, List<Integer> temp, List<List<Integer>> result) {
+        if (target == 0) {
+            result.add(new ArrayList<>(temp));
+            return;
+        }
+
+        for (int i = index; i < candidates.length; i++) {
+            if (candidates[i] > target) break; // Prune unnecessary calls
+
+            temp.add(candidates[i]);
+            backtrack(candidates, target - candidates[i], i, temp, result);
+            temp.remove(temp.size() - 1); // Backtrack
+        }
     }
 }
