@@ -1,6 +1,6 @@
 public class Solution {
     public void permuteRec(int[] nums, int begin, List<List<Integer>> result) {
-        if (begin == nums.length) {
+        if (begin == nums.length-1) {
             List<Integer> temp = new ArrayList<Integer>();
             for (int num : nums) temp.add(num);
             result.add(temp);
