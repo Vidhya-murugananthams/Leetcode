@@ -7,14 +7,14 @@ class Solution {
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         result = new ArrayList<>();
-        temp = new int[target];  // Max possible size, avoids dynamic resizing
+        temp = new int[target]; // Max size, avoids dynamic list operations
         tempSize = 0;
         backtrack(candidates, target, 0);
         return result;
     }
 
-    private void backtrack(int[] candidates, int target, int index) {
-        if (target == 0) {
+    private void backtrack(int[] arr, int sum, int index) {
+        if (sum == 0) {
             List<Integer> combination = new ArrayList<>(tempSize);
             for (int i = 0; i < tempSize; i++) {
                 combination.add(temp[i]);
@@ -23,11 +23,11 @@ class Solution {
             return;
         }
 
-        for (int i = index; i < candidates.length; i++) {
-            if (candidates[i] > target) continue; // Prune early
+        for (int i = index; i < arr.length; i++) {
+            if (sum - arr[i] < 0) continue; // Prune unnecessary calls
 
-            temp[tempSize++] = candidates[i]; // Use array to avoid costly List operations
-            backtrack(candidates, target - candidates[i], i);
+            temp[tempSize++] = arr[i]; // Use array to avoid costly List operations
+            backtrack(arr, sum - arr[i], i);
             tempSize--; // Restore state (faster than removeLast)
         }
     }
