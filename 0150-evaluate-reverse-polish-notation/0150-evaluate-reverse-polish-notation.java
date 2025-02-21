@@ -20,7 +20,6 @@ class Solution {
                         result = a * b;
                         break;
                     case "/":
-                        // Truncate towards zero
                         result = a / b;
                         break;
                 }
