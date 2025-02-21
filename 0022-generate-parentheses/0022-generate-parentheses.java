@@ -1,35 +1,28 @@
+import java.util.*;
+
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String > l=new ArrayList<String>();
-         comb(n,0,0,"",l);
-         return l;
-
+        List<String> result = new ArrayList<>();
+        generateCombinations(n, 0, 0, new StringBuilder(), result);
+        return result;
     }
-       
-  public static void comb(int n, int open, int close,String str,List<String> l)
-  {
-    if(close==n)
-    {
-     l.add(str);
-      return;
-    }
-    if(open<n)
-    {
-      comb(n,open+1,close,str+"(",l);    
-      }
-      if(open>close)
-      {
-        comb(n,open,close+1,str+")",l);
-      }
-  }
-  public  void main(String args[])
-  {
-    Scanner sc=new Scanner(System.in);
-    int n=sc.nextInt();
 
-  List<String >l=generateParenthesis(n);
-  System.out.print(l);
-    
-  }
+    private void generateCombinations(int n, int openCount, int closeCount, StringBuilder current, List<String> result) {
+        if (closeCount == n) {
+            result.add(current.toString());
+            return;
+        }
+
+        if (openCount < n) {
+            current.append("(");
+            generateCombinations(n, openCount + 1, closeCount, current, result);
+            current.deleteCharAt(current.length() - 1); // Backtrack
+        }
+
+        if (openCount > closeCount) {
+            current.append(")");
+            generateCombinations(n, openCount, closeCount + 1, current, result);
+            current.deleteCharAt(current.length() - 1); // Backtrack
+        }
+    }
 }
-
