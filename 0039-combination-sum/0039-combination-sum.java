@@ -15,11 +15,10 @@ class Solution {
         }
         for (int i=index;i<nums.length;i++)
         {
-            if(nums[i]>target)
-                continue;
+            if(nums[i]<=target){
             temp.add(nums[i]);
             comb(nums,target-nums[i],i,temp,result);
-            temp.remove(temp.size()-1);
+            temp.remove(temp.size()-1);}
         }
     }
 }
