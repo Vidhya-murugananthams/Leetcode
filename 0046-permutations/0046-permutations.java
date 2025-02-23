@@ -3,29 +3,28 @@ class Solution {
         List<List<Integer>> list=new ArrayList<List<Integer>>();
         perm(nums,0,list);
         return list;
+        
     }
-    public void perm(int[]nums,int fi,List<List<Integer>> list)
+    public void perm(int []nums,int fix,List<List<Integer>>list)
     {
-        if(fi==nums.length)
+        if(fix==nums.length-1)
         {
             List<Integer> temp=new ArrayList<Integer>();
             for (int i:nums)
                 temp.add(i);
             list.add(temp);
-            return ;
+            return;
         }
-
-        for (int i=fi;i<nums.length;i++)
+        for(int i=fix;i<nums.length;i++)
         {
-            int t=nums[fi];
-            nums[fi]=nums[i];
-            nums[i]=t;
-            perm(nums,fi+1,list);
-             t=nums[fi];
-            nums[fi]=nums[i];
-            nums[i]=t;
+            int t=nums[i];
+            nums[i]=nums[fix];
+            nums[fix]=t;
+            perm(nums,fix+1,list);
+             t=nums[i];
+            nums[i]=nums[fix];
+            nums[fix]=t;
 
         }
     }
-
 }
