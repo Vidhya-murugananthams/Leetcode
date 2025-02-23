@@ -1,12 +1,12 @@
 class Solution {
-    private List<List<Integer>> result;
+    
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        result=new ArrayList<List<Integer>>();
+       List<List<Integer>>  result=new ArrayList<List<Integer>>();
      List<Integer> temp=new ArrayList<Integer>();
-        comb(candidates,target,0,temp);
+        comb(candidates,target,0,temp,result);
         return result;
     }
-    public void comb(int []nums, int target, int index,List<Integer>temp)
+    public void comb(int []nums, int target, int index,List<Integer>temp,List<List<Integer>> result)
     {
         if(target==0)
         {
@@ -18,7 +18,7 @@ class Solution {
             if(nums[i]>target)
                 continue;
             temp.add(nums[i]);
-            comb(nums,target-nums[i],i,temp);
+            comb(nums,target-nums[i],i,temp,result);
             temp.remove(temp.size()-1);
         }
     }
