@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0125-valid-palindrome](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0125-valid-palindrome) |
+| [0143-reorder-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0143-reorder-list) |
 | [0151-reverse-words-in-a-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0283-move-zeroes) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0143-reorder-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0021-merge-two-sorted-lists) |
+| [0143-reorder-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0231-power-of-two) |
 ## Stack
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+| [0143-reorder-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
