@@ -1,52 +1,45 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public void reorderList(ListNode head) {
-         if (head == null || head.next == null) return;
+        if (head == null || head.next == null || head.next.next == null) return;
 
-        // Step 1: Find the middle node
-        ListNode slow = head, fast = head.next;
+        // Step 1: Find the middle of the list
+        ListNode slow = head, fast = head, prev = null;
         while (fast != null && fast.next != null) {
+            prev = slow;
             slow = slow.next;
             fast = fast.next.next;
         }
+        prev.next = null; // Split the list into two halves
 
-        // Step 2: Reverse the second half of the list
-        ListNode head2 = reverse(slow.next);
-        slow.next = null; // Split the list into two halves
+        // Step 2: Reverse the second half
+        ListNode secondHalf = reverseList(slow);
 
-        // Step 3: Merge the two halves
-        ListNode head1 = head;
-        while (head1 != null && head2 != null) {
-            ListNode tmp1 = head1.next;
-            ListNode tmp2 = head2.next;
-
-            head1.next = head2;
-            head2.next = tmp1;
-
-            head1 = tmp1;
-            head2 = tmp2;
-        }
+        // Step 3: Merge both halves alternately
+        mergeLists(head, secondHalf);
     }
 
-    // Helper function to reverse a linked list
-    private ListNode reverse(ListNode node) {
-        ListNode prev = null, curr = node;
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null, curr = head, next;
         while (curr != null) {
-            ListNode nextTemp = curr.next;
+            next = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = nextTemp;
+            curr = next;
         }
-        return prev;
+        return prev; // New head of the reversed list
     }
-        
+
+    private void mergeLists(ListNode first, ListNode second) {
+        while (first != null && second != null) {
+            ListNode temp1 = first.next;
+            ListNode temp2 = second.next;
+
+            first.next = second;
+            if (temp1 == null) break;
+            second.next = temp1;
+
+            first = temp1;
+            second = temp2;
+        }
     }
+}
