@@ -1,27 +1,21 @@
-import java.util.*;
-
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> result = new ArrayList<>();
-        char[] current = new char[n * 2]; // Preallocate char array to avoid new string creation
-        generateCombinations(n, 0, 0, current, 0, result);
-        return result;
-    }
+        List<String> l=new ArrayList<String>();
+        backtrack(n,0,0,"",l);
+        return l;
 
-    private void generateCombinations(int n, int openCount, int closeCount, char[] current, int pos, List<String> result) {
-        if (closeCount == n) {
-            result.add(new String(current)); // Convert char array to String only when needed
+     }
+     public void backtrack(int n, int open, int close, String s, List<String>l)
+     {
+        if (close==n)
+        {
+            l.add(s);
             return;
         }
+        if(open<n)
+            backtrack(n,open+1,close, s+"(",l);
+        if (close<open)
+            backtrack(n,open,close+1, s+")",l);
+     }
 
-        if (openCount < n) {
-            current[pos] = '(';
-            generateCombinations(n, openCount + 1, closeCount, current, pos + 1, result);
-        }
-
-        if (openCount > closeCount) {
-            current[pos] = ')';
-            generateCombinations(n, openCount, closeCount + 1, current, pos + 1, result);
-        }
-    }
 }
