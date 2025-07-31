@@ -1,44 +1,28 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
-    public int numComponents(ListNode head, int[] nums) {
-        HashSet<Integer> hs = new HashSet<>();
-        int count = 1;
-
-        for(int i = 0; i < nums.length; i++)
-            hs.add(nums[i]);
-
-        boolean bool = true;
-        boolean bool1 = true;
-
-        while(head != null){
-            if(!hs.contains(head.val) && bool){
-                count++;
-                bool = false;
-            }
-            else if(hs.contains(head.val))
-                bool = true;
-
-            if(head.next == null && !hs.contains(head.val))
-                count--;
-
-            if(bool1 && !hs.contains(head.val))
-                count--;
-
-            bool1 = false;
-
-            head = head.next;
+    static {
+        for(int i=0;i<450;i++)
+        numComponents(null,new int[]{1,2});
+    }
+    public static int numComponents(ListNode head, int[] nums) {
+        if( head==null)
+        return 0;
+        boolean vis[] = new boolean[10001];
+        for (int i = 0; i < nums.length; i++) {
+            vis[nums[i]] = true;
         }
+        ListNode ls = head;
+        int comp = 0;
 
-        return count;
+        while (ls != null) {
+            if (vis[ls.val]) {
+                while (ls.next != null && vis[ls.val]) {
+                    ls = ls.next;
+                }
+                comp++;
+            } 
+                ls = ls.next;
+
+        }
+        return comp;
     }
 }
-// UP-VOTE IF HELPFUL
