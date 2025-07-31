@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [0283-move-zeroes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0283-move-zeroes) |
 | [0739-daily-temperatures](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0739-daily-temperatures) |
+| [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Math
@@ -91,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
+| [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 ## Linked List
 |  |
 | ------- |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 | [0838-design-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0838-design-linked-list) |
 ## Recursion
 |  |
