@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
+| [0054-spiral-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0054-spiral-matrix) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0198-house-robber) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0054-spiral-matrix) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 ## Bit Manipulation
 |  |
@@ -74,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0054-spiral-matrix) |
 | [0258-add-digits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0258-add-digits) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 ## String
