@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0226-invert-binary-tree) |
+| [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Binary Tree
 |  |
 | ------- |
@@ -249,4 +252,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
+## Graph Theory
+|  |
+| ------- |
+| [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 <!---LeetCode Topics End-->
