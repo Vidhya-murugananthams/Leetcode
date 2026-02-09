@@ -1,29 +1,21 @@
-class Solution {
-    public int nonSpecialCount(int l, int r) {
-        int total = r - l + 1;
-        int special = 0;
-
-        int start = (int)Math.sqrt(l);
-        int end = (int)Math.sqrt(r);
-
-        for(int i = start; i <= end; i++) {
-            if(isPrime(i)) {
-                int square = i * i;
-                if(square >= l && square <= r)
-                    special++;
+class Solution
+{
+    public int nonSpecialCount(int l, int r) 
+    {
+        int n=(int)Math.sqrt(r);
+        boolean[] isprime=new boolean[n+1];
+        Arrays.fill(isprime,true);
+        int c=0;
+        for(int i=2;i<=n;i++)
+        {
+            if(isprime[i])  
+            {
+                if(i*i<=r && i*i>=l) c++;
+                for(int j=i*i;j<=n;j+=i)
+                {
+                    isprime[j]=false;
+                }
             }
         }
-
-        return total - special;
-    }
-
-    private boolean isPrime(int n) {
-        if(n < 2) return false;
-
-        for(int i = 2; i * i <= n; i++) {
-            if(n % i == 0)
-                return false;
-        }
-        return true;
-    }
-}
+        return r-l+1-c;
+    }}
