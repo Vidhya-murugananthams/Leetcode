@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 ## Math
 |  |
 | ------- |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0258-add-digits) |
 | [0319-bulb-switcher](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0319-bulb-switcher) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 ## Two Pointers
 |  |
 | ------- |
@@ -63,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0258-add-digits) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 ## Matrix
 |  |
 | ------- |
