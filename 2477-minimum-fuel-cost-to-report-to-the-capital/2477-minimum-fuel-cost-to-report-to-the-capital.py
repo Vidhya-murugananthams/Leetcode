@@ -1,27 +1,24 @@
 class Solution:
     def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:
-        ans = 0
-        graph = defaultdict(list)
-
+        n = len(roads) + 1
+        
+        graph = [[] for _ in range(n)]
         for u, v in roads:
             graph[u].append(v)
             graph[v].append(u)
-
-        def dfs(u, prev):
-            nonlocal ans
-            people = 1
-
-            for v in graph[u]:
-                if v == prev:
-                    continue
-                people += dfs(v, u)
-            if u > 0:
-                ans += int(math.ceil(people/seats))
-            return people
         
-        dfs(0, -1)
-        return ans
-
-        
-        
-        
+        fuel, _ = self.dfs(0, -1, graph, seats)
+        return fuel
+    
+    def dfs(self, node: int, parent: int, graph: List[List[int]], seats: int) -> (int, int):
+        people = 1
+        fuel = 0
+        for nei in graph[node]:
+            if nei == parent:
+                continue
+            child_fuel, child_people = self.dfs(nei, node, graph, seats)
+            fuel += child_fuel
+            people += child_people
+        if node != 0:
+            fuel += (people + seats - 1) // seats
+        return fuel, people
