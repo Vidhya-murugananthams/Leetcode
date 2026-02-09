@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
 | [0054-spiral-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0054-spiral-matrix) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 ## Heap (Priority Queue)
 |  |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0001-two-sum) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
+| [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 | [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 ## Linked List
 |  |
@@ -237,8 +240,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 ## Combinatorics
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0062-unique-paths) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
