@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [0283-move-zeroes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0283-move-zeroes) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0054-spiral-matrix) |
+| [0200-number-of-islands](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0200-number-of-islands) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 ## Bit Manipulation
 |  |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
@@ -195,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0226-invert-binary-tree) |
 | [2477-minimum-fuel-cost-to-report-to-the-capital](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2477-minimum-fuel-cost-to-report-to-the-capital) |
 ## Binary Tree
@@ -266,4 +270,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
