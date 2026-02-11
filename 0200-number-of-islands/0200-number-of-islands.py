@@ -9,14 +9,12 @@ class Solution:
 
 
     def numIslands(self, grid: List[List[str]]) -> int:
-        r=len(grid)
-        c=len(grid[0])
         count=0
-        for i in range(r):
-            for j in range(c):
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
                 if grid[i][j]=="1":
                     count+=1
-                    self.dfs(r,c,i,j,grid)
+                    self.dfs(len(grid),len(grid[0]),i,j,grid)
         return count
 
 
