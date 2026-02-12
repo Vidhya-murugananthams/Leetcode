@@ -14,7 +14,8 @@ class Solution:
             temp=temp.next
         temp.next=head
         k=k%count
-        k=count-k
+        k=count-k-1
+        temp=head
         while k>0:
             temp=temp.next
             k-=1
