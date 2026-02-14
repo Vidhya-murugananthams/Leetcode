@@ -5,7 +5,7 @@ class Solution {
         int start = (int) Math.ceil(Math.sqrt(l));
         int end = (int) Math.floor(Math.sqrt(r));
 
-        if (start > end) return total;
+      
 
         boolean[] isPrime = sieve(end);
 
