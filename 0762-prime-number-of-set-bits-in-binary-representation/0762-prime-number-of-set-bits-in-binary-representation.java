@@ -1,10 +1,20 @@
 class Solution {
     public int countPrimeSetBits(int left, int right) {
-        List<Integer> arr = List.of(2, 3, 5, 7, 11, 13, 17, 19);
+        // Precompute primes up to 20 (since max bits of 10^6 < 20)
+        boolean[] isPrime = new boolean[21];
+        int[] primes = {2, 3, 5, 7, 11, 13, 17, 19};
+        for (int p : primes) {
+            isPrime[p] = true;
+        }
+
         int count = 0;
-        for (int i = left; i <= right; i++)
-            if (arr.contains(Integer.bitCount(i)))
+        for (int num = left; num <= right; num++) {
+            // count of set bits
+            int bits = Integer.bitCount(num);
+            if (bits < isPrime.length && isPrime[bits]) {
                 count++;
+            }
+        }
         return count;
     }
 }
