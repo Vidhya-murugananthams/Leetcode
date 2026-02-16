@@ -11,7 +11,7 @@ class Solution {
         for (int num = left; num <= right; num++) {
             // count of set bits
             int bits = Integer.bitCount(num);
-            if (bits < isPrime.length && isPrime[bits]) {
+            if (isPrime[bits]) {
                 count++;
             }
         }
