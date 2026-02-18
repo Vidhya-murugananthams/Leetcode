@@ -8,7 +8,7 @@ class Solution:
     
     def comb(self, nums, target, index):
         if target == 0:
-            self.result.append(self.temp.copy())
+            self.result.append(self.temp[:])
             return
         
         for i in range(index, len(nums)):
