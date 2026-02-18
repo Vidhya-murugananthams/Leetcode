@@ -1,25 +1,15 @@
 class Solution:
-    
-    def solve(self, digits, output, ind, mapping, ans):
-        if ind >= len(digits):
-            ans.append(output)
+    def find(self, digit,output,index,keybad,res):
+        if index>=len(digit):
+            res.append(output)
             return
+        number=int(digit[index])
+        key=keybad[number]
+        for ch in key:
+            self.find(digit,output+ch,index+1,keybad,res)
+    def letterCombinations(self, digits: str) -> List[str]:
+        res=[]
+        keybad=["","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"]
+        self.find(digits,"",0,keybad,res)
+        return res
         
-        number = int(digits[ind])
-        value = mapping[number]
-        
-        for ch in value:
-            self.solve(digits, output + ch, ind + 1, mapping, ans)
-    
-    def letterCombinations(self, digits: str):
-        ans = []
-        
-        if len(digits) == 0:
-            return ans
-        
-        mapping = ["", "", "abc", "def", "ghi",
-                   "jkl", "mno", "pqrs", "tuv", "wxyz"]
-        
-        self.solve(digits, "", 0, mapping, ans)
-        
-        return ans
