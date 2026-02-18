@@ -1,16 +1,19 @@
 class Solution:
+    def swap(self,i,j,nums):
+        t=nums[i]
+        nums[i]=nums[j]
+        nums[j]=t
+    def slove(self, nums,fix,res):
+        if fix==len(nums)-1:
+            res.append(nums[ : ])
+            return
+        for i in range(fix,len(nums)):
+            self.swap(i,fix,nums)
+            self.slove(nums,fix+1,res)
+            self.swap(i,fix,nums)
     def permute(self, nums: List[int]) -> List[List[int]]:
-        result=[]
-        self.per(nums,0,len(nums),result) 
-        return result
-    def per(self,nums,fi,n,result):
-        if fi==n-1:
-            result.append(nums[:])
-        for i in range(fi,n):
-            self.swap(fi,i,nums)
-            self.per(nums,fi+1,n,result) 
-            self.swap(fi,i,nums)
-    def swap(self,fi,i,nums):
-        nums[fi],nums[i]=nums[i],nums[fi]
+        res=[]
+        self.slove(nums,0,res)
+        return res
 
-
+        
