@@ -1,6 +1,6 @@
 class Solution:
     def calculate(self, s: str) -> int:
-        stack = []
+        stack = deque()
         result = 0
         num = 0
         sign = 1
