@@ -1,23 +1,21 @@
-class Solution(object):
+class Solution:
     def isMatch(self, s, p):
-        """
-        :type s: str
-        :type p: str
-        :rtype: bool
-        """
-        m, n = len(s), len(p)
-        dp = [[False] * (n + 1) for _ in range(m + 1)]
-        dp[0][0] = True
-
-        for j in range(1, n + 1):
-            if p[j - 1] == '*':
-                dp[0][j] = dp[0][j - 1]
-
-        for i in range(1, m + 1):
-            for j in range(1, n + 1):
-                if p[j - 1] == '*':
-                    dp[i][j] = dp[i][j - 1] or dp[i - 1][j]
-                elif p[j - 1] == '?' or s[i - 1] == p[j - 1]:
-                    dp[i][j] = dp[i - 1][j - 1]
-
-        return dp[m][n]
+        sp = pp = match = 0
+        star = -1
+        while sp < len(s):
+            if (pp < len(p) and (s[sp] == p[pp] or p[pp] == '?')):
+                sp +=1
+                pp +=1
+            elif pp < len(p) and p[pp] == '*':
+                star = pp
+                match = sp
+                pp +=1
+            elif star != -1:
+                pp = star + 1
+                match +=1
+                sp = match
+            else:
+                return False
+        while(pp < len(p) and p[pp] == '*'):
+            pp += 1
+        return pp == len(p)
