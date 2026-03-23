@@ -4,10 +4,10 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def oddEvenList(self, head):
-        if not head or not head.next:
+    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head or not head.next or not head.next.next:
             return head
-        odd =head
+        odd=head
         even=head.next
         evenhead=head.next
         while even and even.next:
@@ -17,5 +17,4 @@ class Solution:
             even=even.next
         odd.next=evenhead
         return head
-
         
