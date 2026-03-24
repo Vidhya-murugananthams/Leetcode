@@ -17,7 +17,7 @@ class Solution:
                 temp.next=cur2
                 cur2=cur2.next
             temp=temp.next
-        if  cur1:
+        if cur1:
             temp.next=cur1
         else:
             temp.next=cur2
