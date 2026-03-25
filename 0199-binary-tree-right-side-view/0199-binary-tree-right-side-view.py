@@ -1,17 +1,19 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
-    def rightSideView(self, root):
-        result = []
-        self.right(root, 0, result)
-        return result
-
-    def right(self, root, level, result):
-        if root is None:
+    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
+        l=[]
+        self.rightview(root,0,l)
+        return l
+    def rightview(self,root,level,l):
+        if root==None:
             return
+        if level==len(l):
+            l.append(root.val)
+        self.rightview(root.right,level+1,l)
+        self.rightview(root.left,level+1,l)
         
-        # If first time visiting this level
-        if len(result) == level:
-            result.append(root.val)
-        
-        # Visit right first
-        self.right(root.right, level + 1, result)
-        self.right(root.left, level + 1, result)
