@@ -4,7 +4,7 @@ class Solution:
         if not root:
             return result
         
-        flag = False
+        flag = True
         q = deque([root])
         
         while q:
@@ -20,10 +20,10 @@ class Solution:
                 if cur.right:
                     q.append(cur.right)
             
-            if flag:
-                level.reverse()
             
             result.append(level)
             flag = not flag
+            if flag:
+                level.reverse()
         
         return result
