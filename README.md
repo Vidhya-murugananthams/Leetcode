@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
+| [0069-sqrtx](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
@@ -274,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0069-sqrtx) |
 | [0098-validate-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
