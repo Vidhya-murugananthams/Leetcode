@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0191-number-of-1-bits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0231-power-of-two) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0258-add-digits) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 ## String
@@ -110,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0224-basic-calculator) |
