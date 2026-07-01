@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0191-number-of-1-bits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0231-power-of-two) |
+| [0338-counting-bits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0338-counting-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 ## Simulation
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0070-climbing-stairs) |
 | [0198-house-robber](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0338-counting-bits) |
 | [0509-fibonacci-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0509-fibonacci-number) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Binary Search Tree
