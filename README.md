@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0091-decode-ways](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0224-basic-calculator) |
@@ -290,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0046-permutations) |
+| [0131-palindrome-partitioning](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0091-decode-ways) |
+| [0131-palindrome-partitioning](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0322-coin-change) |
