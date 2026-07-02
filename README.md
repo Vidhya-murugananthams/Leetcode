@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0066-plus-one) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
 | [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0125-valid-palindrome) |
+| [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0224-basic-calculator) |
 | [0344-reverse-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0344-reverse-string) |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0049-group-anagrams) |
+| [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0169-majority-element) |
 | [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 ## Linked List
@@ -294,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0044-wildcard-matching) |
 | [0062-unique-paths](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0338-counting-bits) |
@@ -348,5 +352,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 | [0509-fibonacci-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0509-fibonacci-number) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
