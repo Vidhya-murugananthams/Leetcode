@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0326-power-of-three](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0326-power-of-three) |
 | [0400-nth-digit](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0400-nth-digit) |
 | [0509-fibonacci-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0509-fibonacci-number) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0400-nth-digit](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0400-nth-digit) |
+| [0668-kth-smallest-number-in-multiplication-table](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 ## Divide and Conquer
 |  |
 | ------- |
