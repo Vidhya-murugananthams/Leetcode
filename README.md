@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 ## Math
 |  |
@@ -54,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 ## Two Pointers
 |  |
@@ -88,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0258-add-digits) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
+| [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 ## Matrix
 |  |
