@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0204-count-primes) |
 | [0283-move-zeroes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0322-coin-change](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0322-coin-change) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0739-daily-temperatures](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0739-daily-temperatures) |
@@ -70,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0067-add-binary) |
 | [0191-number-of-1-bits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0231-power-of-two) |
+| [0287-find-the-duplicate-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0338-counting-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
@@ -324,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [0287-find-the-duplicate-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0400-nth-digit](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0400-nth-digit) |
 | [0668-kth-smallest-number-in-multiplication-table](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0668-kth-smallest-number-in-multiplication-table) |
 ## Divide and Conquer
@@ -371,4 +375,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0139-word-break) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
