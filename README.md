@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-linked-list-components](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0835-linked-list-components) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0867-transpose-matrix) |
+| [0946-validate-stack-sequences](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0946-validate-stack-sequences) |
 | [2423-minimum-deletions-to-make-array-divisible](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2423-minimum-deletions-to-make-array-divisible) |
 | [2470-number-of-subarrays-with-lcm-equal-to-k](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/2470-number-of-subarrays-with-lcm-equal-to-k) |
 | [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0861-flipping-an-image](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0861-flipping-an-image) |
 | [0867-transpose-matrix](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0867-transpose-matrix) |
+| [0946-validate-stack-sequences](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0946-validate-stack-sequences) |
 ## String
 |  |
 | ------- |
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0739-daily-temperatures](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0739-daily-temperatures) |
+| [0946-validate-stack-sequences](https://github.com/Vidhya-murugananthams/Leetcode/tree/master/0946-validate-stack-sequences) |
 ## Monotonic Stack
 |  |
 | ------- |
